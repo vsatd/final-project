@@ -1,0 +1,365 @@
+@font-face 
+{
+	font-family: pt-sans-narrow;
+	/*src: url("../fonts/pt-sans-narrow-regular.ttf");*/
+	src: local(pt-sans-narrow), url(fonts/pt-sans-narrow-regular.ttf);
+}
+
+body
+{
+	background: #FFFFFF url("../images/bg.jpg") repeat left top scroll;
+	/*min-width: 1920px;*/
+}
+
+
+.wrapper
+{
+    margin: 20px auto;
+    min-width: 1000px;
+    width: 1000px;
+	/*outline: 1px solid #666;*/
+}
+
+.aone
+{
+	background: transparent url("../images/kv.png") no-repeat scroll left top;
+	height: 456px;
+	/*position: fixed;*/
+	float: left;
+	z-index: 2;
+	width: 1006px; margin-left: 0px; left: 0px; margin-right: -1903px; top: 0px; padding-right: 0px;
+}
+
+.rightName
+{
+	margin-left: 560px;
+	width:420px;
+}
+
+.name1
+{
+	font-family: pt-sans,sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+	margin:0;
+	color: #ffffff;
+}
+
+.name2
+{
+    font-family: pt-sans-narrow,sans-serif;
+    font-size: 90px;
+    line-height: 108px;
+	margin:0;
+	color: #ffffff;
+}
+
+.knopka 
+{
+    margin-left: 560px;
+    margin-top: 21px;
+    position: relative;
+    width: 312px;
+    z-index: 9;
+}
+
+.vnutriknopki 
+{
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #ffffff, #dadada 100%) repeat scroll 0 0;
+    border-color: #000000;
+    border-radius: 5px;
+    margin-right: -10000px;
+    padding-bottom: 10px;
+    position: relative;
+    width: 312px;
+    z-index: 10;
+	height:50px;
+}
+
+.shrift 
+{
+    color: #2f8ad7;
+    font-family: pt-sans-narrow,sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    margin-right: -10000px;
+    padding-top: 10px;
+    min-height: 30px;
+    position: relative;
+    text-align: center;
+    width: 312px;
+    z-index: 11;
+	text-decoration: none;
+}
+
+.shrift span
+{
+	display:inline-block;
+	padding-top: 15px;
+	padding-left: 30px;
+}
+
+.logo
+{
+	margin-left: 580px;
+	z-index: 10;
+	/*width:420px;*/
+	margin-top: 20px;
+	width: 280px; margin-right: -1903px; top: 0px; padding-right: 0px;
+}
+
+/*----carousel----------------------------*/
+
+.c_feature1, .c_feature2, , .c_feature3, .c_feature4, .c_feature5, .c_feature6, .c_feature7, .c_feature8, .c_feature9, .c_feature10
+{
+    margin-right: -10000px;
+    padding-bottom: 0;
+    position: relative;
+    /*width: 166px;*/
+    z-index: 24;
+    display: inline;
+}
+
+.с_featuretxt
+{
+    color: #ffffff;
+    font-family: pt-sans-narrow,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 5px;
+    margin-top: 11px;
+    min-height: 51px;
+    position: relative;
+    text-align: center;
+    /*width: 110px;*/
+}
+
+.owl-wrapper-outer {
+	/*border: 1px solid #777;*/
+	/*border-radius: 5px;*/
+	overflow: hidden;
+	/*background: white;*/
+}
+
+/* 1 квадратик карусели */
+.carousel-element {
+	padding: 28px;
+	text-align: center;
+	font-size: 300%;
+	/*border-right: 1px solid #777;*/
+}
+
+/*точки*/
+
+.owl-pagination {
+	text-align: center; /* Выравниваем точки по-середине */
+}
+/* 1 Точка */
+.owl-page {
+	width: 10px;
+	height: 10px;
+	border: 1px solid #777;
+	display: inline-block;
+	background: white;
+	margin: 10px;
+	border-radius: 5px;
+}
+/* Активная точка */
+.owl-page.active {
+	background: #777;
+}
+
+
+/*---------------------------------*/
+
+.textarea
+{
+	color: #ffffff;
+    font-family: pt-sans-narrow,sans-serif;
+    font-size: 22px;
+	font-weight: 400;
+    margin-top: 66px;
+    min-height: 212px;
+    position: relative;
+    width: 380px;
+    z-index: 60;
+}
+
+.txta1
+{
+	font-size: 32px;
+}
+
+.txta2, .txta3, .txta4, .txta5, .txta6
+{
+	line-height: 10px;
+}
+
+ .txta7
+ {
+	 font-size: 26px;
+ }
+ 
+ .backandfrontpic
+{
+    margin-left: 510px;
+    /*padding-bottom: 385px;*/
+	padding-bottom:0px;
+    position: relative;
+    top: -212px;
+    width: 0.01px;
+    float: left;
+}
+
+.back
+{
+	z-index:131;
+}
+
+.front
+{
+	/*position: fixed;*/
+	position: absolute;
+	top: 0px;
+	left: 130px;
+	z-index:133;
+}
+
+.form
+{
+	height: 236px;
+    margin-bottom: -150px;
+    position: relative;
+    /*top: -770px;*/
+	top: -385px;
+    width: 0.01px;
+    z-index: 74;
+	float:left;
+}
+
+.form1
+{
+	background-color: transparent;
+    border-color: transparent;
+    border-style: none;
+    height: 46px;
+    left: -1px;
+    margin-right: -10000px;
+    position: relative;
+    width: 380px;
+    z-index: 75;
+}
+
+.labelname
+{
+    background-color: transparent;
+    border-color: transparent;
+    border-style: none;
+    color: #ffffff;
+    font-family: Georgia,Palatino,Palatino Linotype,Times,Times New Roman,serif;
+    line-height: 14px;
+    /*margin-right: -10000px;*/
+    min-height: 20px;
+    position: relative;
+    text-align: left;
+    width: 200px;
+    z-index: 76;
+}
+
+.spname, .spname2, .spname3 {
+    background-color: #f2f2f2;
+    border-color: #c4c4c4;
+    border-style: solid;
+    border-width: 1px;
+    color: #c4c4c4;
+    font-family: Georgia,Palatino,Palatino Linotype,Times,Times New Roman,serif;
+    font-style: italic;
+    left: -1px;
+    line-height: 14px;
+    margin-bottom: -1px;
+    margin-right: -10000px;
+    margin-top: 1px;
+    min-height: 14px;
+    padding: 6px;
+    position: relative;
+    width: 368px;
+    z-index: 80;
+}
+
+.form2, .form3
+{
+
+	background-color: transparent;
+    border-color: transparent;
+    border-style: none;
+    height: 46px;
+    left: -1px;
+    margin-top:10px;
+	margin-right: -10000px;
+    position: relative;
+    width: 380px;
+    z-index: 75;
+}
+
+.form1_input, .form1__prompt, .form2_input, .form2__prompt, .form3_input, .form3__prompt
+{
+    color: #c4c4c4;
+    font-family: Georgia,Palatino,Palatino Linotype,Times,Times New Roman,serif;
+    font-style: italic;
+    min-height: 14px;
+    padding: 6px;
+    width: 368px;
+}
+
+.wrapped_input
+{
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.submitbutton
+{
+	background: rgba(0, 0, 0, 0) url("../images/submit.png") no-repeat scroll 0 0;
+    margin-right: -10000px;
+    margin-top: 10px;
+    min-height: 30px;
+    position: relative;
+    width: 380px;
+    z-index: 105;
+}
+
+.price
+{
+	color: #ffffff;
+    font-family: pt-sans-narrow,sans-serif;
+    font-weight: 400;
+    margin-bottom: -41px;
+    margin-left: 565px;
+    min-height: 41px;
+    position: relative;
+    text-align: center;
+    top: -200px;
+    width: 250px;
+    z-index: 136;
+}
+
+.price1
+{
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.price2
+{
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.clear
+{
+	clear: both;
+}
+
